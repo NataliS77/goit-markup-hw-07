@@ -1,14 +1,22 @@
 //utils styles
 
 @import './utils/variabies';
+@import './utils/visually-hidden';
+@import './utils/animations';
 
 //base styles
 
 @import './base/base';
+@import './base/reset';
 
 //components styles
 
 @import './components/buttons';
+@import './components/container';
+@import './components/section';
+
+
+
 
 //layout styles
 
