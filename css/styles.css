@@ -117,7 +117,7 @@ ul {
 .nav {
   display: flex;
 }
-.nav-logo {
+.nav__nav-logo {
   margin-right: 93px;
 }
 
@@ -236,7 +236,7 @@ ul {
   text-transform: uppercase;
 }
 
-.main__btn {
+.main-btn {
   display: inline-block;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -254,8 +254,8 @@ ul {
    
 transition: background-color 250ms var(--cubic);
 }
-.main__btn:hover,
-.main__btn:focus {
+.main-btn:hover,
+.main-btn:focus {
   background-color: var(--acctent-bg-color);
 }
 
@@ -529,7 +529,7 @@ height: 70px;
   background: var(--main-bg-color);
 }
 
-.footer__logo {
+.footer-logo__link {
   
   font-family: "Raleway";
   font-weight: 700;
@@ -540,7 +540,7 @@ height: 70px;
   text-decoration: none;
 }
 
-.footer__accent {
+.footer-logo__accent {
   color: var(--acctent-color);
 
   font-family: "Raleway";
@@ -549,7 +549,7 @@ height: 70px;
   line-height: 1.19;
   
 }
-.logo{
+.footer__footer-logo{
   margin-bottom: 20px;
 }
 
@@ -705,7 +705,7 @@ text-transform: uppercase;
 
  }
 
-.portfolio-main__btn {
+.btn {
   display: block;
   padding: 6px 22px;
   border-radius: 4px;
@@ -723,8 +723,8 @@ text-transform: uppercase;
   transition: color 250ms var(--cubic), background-color 250ms var(--cubic);
 
 }
-.portfolio-main__btn:hover,
-.portfolio-main__btn:focus {
+.btn:hover,
+.btn:focus {
   background-color: var(--acctent-color);
   color: #ffffff;
 }
@@ -895,7 +895,7 @@ padding: 40px;
 transition: translate 250ms var(--cubic),scale 1150ms var(--cubic);
 }
 
-.modal__btn{
+.modal-btn{
   position: absolute;
   top: 8px;
   right: 8px;
@@ -915,8 +915,8 @@ transition: translate 250ms var(--cubic),scale 1150ms var(--cubic);
 transition: fill 250ms var(--cubic)
 }
 
-.modal__icon:hover,
-.modal__icon:focus{
+.modal-btn__icon:hover,
+.modal-btn__icon:focus{
   fill: var(--acctent-color);
   
 }
@@ -1024,7 +1024,7 @@ textarea::placeholder{
    margin-bottom: 30px;
 }
 
-.form-spich{
+.form__spich{
   display:flex;
   gap: 4px; 
    font-weight: 400;
@@ -1035,7 +1035,7 @@ textarea::placeholder{
     text-underline-position: under;
     user-select: none;
 }
-.form-link{
+.form__link{
   color: var(--acctent-color);
   
 }
@@ -1078,7 +1078,7 @@ opacity: 1;
   box-shadow: 0px 4px 4px 0px #00000026;
   transition: background 250ms var(--cubic)
 }
-.form-btn:hover,
-.form-btn:focus{
+.btn-form:hover,
+.btn-form:focus{
   background: var(--acctent-bg-color);
 }
