@@ -312,25 +312,6 @@ ul {
   background-color: var(--acctent-bg-color);
 }
 
-.group__list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-}
-
-.group__link {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  width: 270px;
-  height: 120px;
-  margin-bottom: 30px;
-  border-radius: 4px;
-  background-color: var(--back-color);
-}
-
 .about {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -855,6 +836,21 @@ ul {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
+}
+.lifestyle__list {
+  display: flex;
+  gap: 30px;
+}
+.lifestyle__link {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  border-radius: 4px;
+  background-color: var(--back-color);
 }
 .lifestyle__item {
   width: 270px;
